@@ -16,6 +16,8 @@ body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  font-family: Verdana, Helvetica, sans-serif;
+  position: static;
 }
 
 img,
@@ -47,4 +49,28 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+}
+
+header {
+  font-size: 20px;
+  background-color: grey;
+}
+
+nav {
+  font-size: 15px;
+  background-color: green;
+}
+
+main {
+  font-size: 30px;
+  background-color: blue;
+}
+
+footer {
+  font-size: 10px;
+  background-color: yellow;
+  position: fixed;
+  bottom: 0;
+  width: 95%;
+  height: 60px;
 }
