@@ -69,8 +69,19 @@ main {
 footer {
   font-size: 10px;
   background-color: yellow;
-  position: fixed;
+  position: sticky;
   bottom: 0;
-  width: 95%;
-  height: 60px;
+}
+
+a {
+  color: white;
+}
+a:hover {
+  color: black;
+}
+a:focus {
+  color: red;
+}
+a:visited {
+  color: pink;
 }
